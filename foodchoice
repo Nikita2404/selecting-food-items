@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int x;
+	printf("enter choice");
+	scanf("%d",&x);
+	switch(x)
+	{
+		case 1 : printf("1. food item :pizza\n price: 239\n");
+		break;
+		case 2 : printf("2. food item :burger\n price: 129");
+		break; 
+		case 3 :printf("3. food item :pasta\n price: 179");
+		break;
+		case 4 :printf("4. food item :fries\n price: 99");
+		break;
+		case 5 :printf("5. food item :sandwich\n price: 149");
+		break;
+	}
+}
